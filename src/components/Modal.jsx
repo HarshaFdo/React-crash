@@ -1,13 +1,15 @@
+import { Children } from 'react';
 import classes from './Modal.module.css';
 
-function Modal({ children }) {
-  return 
+function Modal({ children, onclose }) {
+  return (
     <>
-      <div className={classes.backdrop} />
+      <div className={classes.backdrop} onClick={onclose}/>
       <dialog open className={classes.modal}> 
         {children}
       </dialog>
     </>
+  );
 }
 
 export default Modal;
