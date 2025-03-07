@@ -5,8 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 import Posts, { loader as postsLoader } from './routes/Posts';
 import NewPost, { action as newPostAction } from './routes/NewPost';
-import PostDetails, { loader as PostDetails } from './routes/PostDetails';
-import NewPost from './routes/NewPost';
+import PostDetails, { loader as postDetailsLoader } from './routes/PostDetails';
 import RootLayout from './routes/RootLayout';
 import './index.css'
 
