@@ -1,4 +1,3 @@
-
 import { useLoaderData } from 'react-router-dom'
 
 import Post from "./Post";

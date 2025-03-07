@@ -7,7 +7,7 @@ function NewPost() {
 
   return (
     <Modal>
-      <Form className={classes.form}>
+      <Form method='post' className={classes.form}>
         <p>
           <label htmlFor="body">Text</label>
           <textarea id="body" name="body" required rows={3}  />
